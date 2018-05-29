@@ -62,8 +62,8 @@
     }
 
 
-}
-extension ViewController{
+	}
+	extension ViewController{
 
     func setupBarChart(yValues:Array<Double>,labels: Array<String>){
         let dataEntries = self.generateDataEntries(dataValues: yValues, labels: labels)
